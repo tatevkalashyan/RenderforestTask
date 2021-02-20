@@ -1,0 +1,390 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family:  "Montserrat", sans-serif;
+  background-color: white;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: 400;
+}
+
+.section1 {
+  background-color: #7D74E9;
+  overflow: hidden;
+  position:relative;
+  &::before {
+    content: url("../../img/Mask Group 1337.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .btn_oval {
+    min-width: 216px;
+  }
+  .main-title {
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+    b {
+      font-size: 56px;
+      line-height: 64px;
+      color: #FFFFFF;
+      font-family:  "Montserrat", sans-serif;
+      font-weight: 900;
+    }
+  }
+  .img-area {
+    background: url("../../img/Group 14987.png") no-repeat;
+    width: 100%;
+    max-width: 512px;
+    height: 514px;
+    background-size: 100%;
+  }
+  .marquee-style {
+    position: relative;
+    &::after {
+      content: url("../../img/Rectangle 13179.svg");
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    &::before {
+      content: url("../../img/Rectangle 13178.svg");
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 11;
+    }
+  }
+}
+.section2 {
+  background: transparent linear-gradient(180deg, #F5FAFE 0%, #E5EDFF 100%) 0% 0% no-repeat padding-box;
+  .info-text {
+    max-width: 711px;
+    width: 100%;
+  }
+  .base-title {
+    font-size: 26px;
+  }
+  .card {
+    box-shadow: 0 3px 6px #0047CE33;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s;
+    margin: 0 auto;
+    max-width: 21.5rem;
+    width: 100%;
+    .base-title {
+      font: normal normal bold 16px/35px Montserrat;
+      white-space: nowrap;
+      zoom: 0.9;
+    }
+    .abs {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      .text-white {
+        font-size: 18px;
+      }
+      span {
+        font: normal normal 700 14px/35px "Montserrat";
+        color: #FFFFFF;
+        text-shadow: 0 3px 6px #064AE541;
+        display: none;
+        transition: all 0.3s;
+      }
+    }
+    &:hover {
+      margin-top: -10px;
+      .abs {
+        span {
+          display: inline-block;
+
+        }
+      }
+    }
+  }
+}
+.section3 {
+  padding: 75px;
+  .card {
+    .card-subtitle {
+      color: $purple;
+      font: normal normal 700 18px/46px Montserrat;
+      text-transform: uppercase;
+    }
+    .border-purple {
+      border-left:2px solid $purple;
+    }
+    .border-yellow {
+      border-left:2px solid #F7CF06;
+    }
+    .color-yellow {
+      color: #F7CF06;
+    }
+    .border-red {
+      border-left:2px solid #F27B6A;
+    }
+    .color-red {
+      color: #F27B6A;
+    }
+  }
+  .abs {
+    position: absolute;
+    bottom: -10px;
+    text-align: center;
+    left: 0;
+    right: 0;
+
+  }
+  .abs5 {
+    bottom: 5px;
+  }
+  .abs-leftside {
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  .abs-rightside {
+    position: absolute;
+    top: 45%;
+    right: -50px;
+  }
+  .pulse-button {
+    animation: pulse 2s ease infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.8); }
+    100% { transform: scale(1); }
+  }
+}
+.section4 {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  background: transparent linear-gradient(180deg, #437BF9 0%,#5477F7 25%, #6172F1 75%, #726CEA 100%) 0% 0% no-repeat padding-box;
+  .text-white {
+    font: normal normal bold 26px/36px Montserrat;
+  }
+  .btn_oval {
+    min-width: 230px;
+  }
+  .bg-pic {
+    position: relative;
+    &::before {
+      content: url("../../img/Mask Group 1357.png");
+      position: absolute;
+      top: -45px;
+      left: 0;
+    }
+    &::after {
+      content: url("../../img/Mask Group 1358.png");
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+.section5 {
+  padding-top: 75px;
+  padding-bottom: 90px;
+  background-color: #F5FAFE;
+  position: relative;
+  .card {
+    box-shadow: 0 3px 6px #0047CE33;
+    border-radius: 10px;
+    margin-bottom: 65px;
+    .card-body {
+      padding: 45px 30px;
+      .text-base{
+        font: normal normal 500 16px/22px Montserrat;
+      }
+    }
+    .abs {
+      position: absolute;
+      top: -35px;
+      left: 30px;
+    }
+  }
+  .bg-abs-right {
+    position: absolute;
+    width: 50px;
+    height: 520px;
+    bottom: -35px;
+    left: 150px;
+    transform: rotate(-40deg);
+    &::before {
+      content: url("../../img/atomic-energy.svg");
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(45deg);
+    }
+    &::after {
+      content: url("../../img/function.svg");
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: rotate(45deg);
+    }
+  }
+  .bg-abs-left {
+    position: absolute;
+    width: 50px;
+    height: 540px;
+    bottom: 93px;
+    right: 145px;
+    transform: rotate(-30deg);
+    &::before {
+      content: url("../../img/venn-diagram.svg");
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(45deg);
+    }
+    &::after {
+      content: url("../../img/math.svg");
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: rotate(45deg);
+    }
+  }
+}
+.section6 {
+  padding: 60px 0;
+  .abs {
+    position: absolute;
+    top: 10px;
+  }
+}
+.section7 {
+  position: relative;
+  &::before {
+    content: url("../../img/Mask Group 1278.svg");
+    position: absolute;
+    bottom: 90px;
+    left: 0;
+  }
+  &::after {
+    content: url("../../img/Mask Group 1277.svg");
+    position: absolute;
+    top: 30px;
+    right: 0;
+  }
+  .item {
+    .base-subtitle {
+      font: normal normal bold 16px/19px Montserrat;
+    }
+  }
+  .owl-theme {
+    .owl-dots {
+      margin-top: 30px!important;
+      .owl-dot {
+        span {
+          margin: 5px 0;
+          background: #387DFF;
+          opacity: 0.5;
+        }
+      }
+      .owl-dot.active {
+        span {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+}
+.section8 {
+  background-color: $blue;
+  padding: 60px 0;
+  position: relative;
+  .base-title {
+    line-height: 44px;
+    margin-bottom: 15px;
+    & + div {
+      font: normal normal 500 14px/24px Montserrat;
+    }
+  }
+  &::before {
+    content: url("../../img/Mask Group 1269.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  &::after {
+    content: url("../../img/Mask Group 1273.svg");
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+.section9 {
+  position: relative;
+  padding: 60px 0 75px;
+  &::before {
+    content: url("../../img/Mask Group 1361.svg");
+    position: absolute;
+    bottom: 117px;
+    left: 0;
+  }
+  &::after {
+    content: url("../../img/Mask Group 1360.svg");
+    position: absolute;
+    top: 121px;
+    right: 0;
+  }
+  .card {
+    box-shadow: 0 3px 6px #0047CE33;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto 60px;
+    max-width: 21.5rem;
+    width: 100%;
+    &::before {
+      content: url("../../img/Mask Group 1362.svg");
+      position: absolute;
+      bottom: 36px;
+      left: -85px;
+    }
+    &::after {
+      content: url("../../img/Mask Group 1363.svg");
+      position: absolute;
+      top: 36px;
+      right: -85px;
+    }
+
+  }
+}
+.btn-go-up {
+  scroll-behavior: smooth;
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  z-index: 88;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 9px #387DFF40;
+    width: 72px;
+    height: 72px;
+    background-color: #fff;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,189 @@
+
+
+
+
+@media screen and (min-width: 1200px) {
+  .main-content {
+    max-width: 1366px;
+    margin: 0 auto;
+  }
+  .container-1100 {
+    max-width: 1100px;
+  }
+  .container-1126 {
+    max-width: 1126px;
+  }
+  .container-1109 {
+    max-width: 1109px;
+  }
+  .container-1216 {
+    max-width: 1216px;
+  }
+}
+@media screen and (max-width: 1200px) {
+
+}
+//media
+
+
+@media screen and (max-width: 991px) {
+
+}//media
+
+
+@media screen and (max-width: 767px) {
+  .section1 {
+    padding-top: 30px;
+    .btn_oval{
+      margin-bottom: 40px!important;
+    }
+    &::before {
+      left: -140px;
+      transform: rotate(90deg);
+      zoom: 0.55;
+      top: -40px;
+    }
+    .main-title {
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+      b {
+        font-size: 36px;
+        line-height: 42px;
+      }
+    }
+    .img-area {
+      background-size: 100%;
+      height: 350px;
+      margin-top: 13px;
+      img {
+        zoom: 0.7;
+      }
+    }
+    & > .row {
+      margin: 0!important;
+      .col-md-7 {
+        padding: 0!important;
+      }
+    }
+  }
+  .line-purple {
+    width: 90px;
+  }
+  .section2 {
+    .base-title {
+      font-size: 20px;
+    }
+    .card {
+      .base-title {
+        font-size: 14px;
+        line-height: 31px;
+        zoom: 1;
+      }
+    }
+  }
+  .base-title {
+    font: normal normal 700 24px/32px Montserrat;
+  }
+  .section3 {
+    padding: 60px 0 75px;
+    .card {
+      .card-subtitle {
+        font-size: 16px;
+      }
+    }
+    .abs-rightside {
+      right: 0;
+    }
+  }
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .section4 {
+    .bg-pic {
+      display: none;
+    }
+    .fs-24 {
+      font-size: 22px;
+      line-height: 32px;
+      font-weight: bold;
+    }
+  }
+  .section5 {
+    padding-top: 45px;
+    padding-bottom: 60px;
+    .bg-abs-left,
+    .bg-abs-right {
+      display: none;
+    }
+    .card {
+      .card-body {
+        padding: 45px 20px 20px;
+        .base-subtitle {
+          font: normal normal 600 16px/19px Montserrat;
+        }
+        .text-base {
+          font: normal normal 500 14px/22px Montserrat;
+        }
+      }
+    }
+
+  }
+  .section6 {
+    .abs {
+      zoom: 0.5;
+      &+img {
+        zoom: 0.8;
+      }
+    }
+  }
+  .section7 {
+    &::after,
+    &::before {
+      display: none;
+    }
+    .fs-18 {
+      font-size: 14px!important;
+      line-height: 22px!important;
+    }
+  }
+  .section8 {
+    padding-top: 45px;
+    padding-bottom: 60px;
+    &::after,
+    &::before {
+      display: none;
+    }
+    .base-title {
+      text-align: center;
+      font-size: 30px;
+      line-height: 40px;
+      &+div{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 45px;
+      }
+    }
+
+  }
+  .section9 {
+    padding-top: 45px;
+    padding-bottom: 75px;
+    &::after,
+    &::before {
+      display: none;
+    }
+    .card {
+      &::after,
+      &::before {
+        display: none;
+      }
+      .card-body {
+        padding: 20px 13px;
+      }
+    }
+  }
+}
+
+

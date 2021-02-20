@@ -1,0 +1,121 @@
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+button:focus {
+  outline: none;
+}
+
+.fs-16 {
+  font-size: 16px!important;
+  line-height: 19px!important;
+}
+.fs-18 {
+  font-size: 18px!important;
+  line-height: 26px!important;
+}
+
+.bg-dark-white {
+  background-color: $dark-white;
+}
+.btn_oval {
+  min-width: 100px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+}
+.btn_oval-small {
+  min-width: 100px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+}
+.btn-blue {
+  background: transparent linear-gradient(180deg, #5690FF 0%, #387DFF 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0 3px 9px #387DFF80;
+  border-radius: 20px;
+  color: #FFFFFF;
+}
+.btn_oval.bg-dark-white {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: $text-color;
+}
+.btn-transparent.text-white {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: transparent;
+}
+.text-base {
+  font: normal normal 500 14px/22px Montserrat;
+  color: $text-color;
+}
+.line-purple {
+  width: 120px;
+  height: 2px;
+  background-color: #6C63FF;
+}
+.base-title {
+  font: normal normal 700 36px/46px Montserrat;
+  color: $base-dark;
+}
+.base-subtitle {
+  font: normal normal 600 20px/22px Montserrat;
+  color: $base-dark;
+}
+.pr-25 {
+  padding-right: 2.5rem;
+}
+.flex-1 {
+  flex: 1;
+}
+
+
+
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.rating {
+  display: block;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-align: center;
+  .star {
+    display: none;
+    &:checked ~ label {
+      color: orange;
+    }
+  }
+  span {
+    color: orange;
+  }
+  label {
+    color: orange;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 -1px;
+    transition: transform .15s ease;
+    &:hover {
+      transform: scale(1.35, 1.35);
+      color: orange;
+      & ~ label {
+        color: orange;
+      }
+    }
+  }
+}
+

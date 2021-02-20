@@ -1,0 +1,576 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+a {
+  text-decoration: none; }
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none; }
+
+button:focus {
+  outline: none; }
+
+.fs-16 {
+  font-size: 16px !important;
+  line-height: 19px !important; }
+
+.fs-18 {
+  font-size: 18px !important;
+  line-height: 26px !important; }
+
+.bg-dark-white {
+  background-color: #EEF5FF; }
+
+.btn_oval {
+  min-width: 100px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0; }
+
+.btn_oval-small {
+  min-width: 100px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0; }
+
+.btn-blue {
+  background: transparent linear-gradient(180deg, #5690FF 0%, #387DFF 100%) 0% 0% no-repeat padding-box;
+  box-shadow: 0 3px 9px #387DFF80;
+  border-radius: 20px;
+  color: #FFFFFF; }
+
+.btn_oval.bg-dark-white {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #545F7E; }
+
+.btn-transparent.text-white {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: transparent; }
+
+.text-base {
+  font: normal normal 500 14px/22px Montserrat;
+  color: #545F7E; }
+
+.line-purple {
+  width: 120px;
+  height: 2px;
+  background-color: #6C63FF; }
+
+.base-title {
+  font: normal normal 700 36px/46px Montserrat;
+  color: #363F5A; }
+
+.base-subtitle {
+  font: normal normal 600 20px/22px Montserrat;
+  color: #363F5A; }
+
+.pr-25 {
+  padding-right: 2.5rem; }
+
+.flex-1 {
+  flex: 1; }
+
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+.rating {
+  display: block;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  text-align: center; }
+  .rating .star {
+    display: none; }
+    .rating .star:checked ~ label {
+      color: orange; }
+  .rating span {
+    color: orange; }
+  .rating label {
+    color: orange;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0 -1px;
+    transition: transform .15s ease; }
+    .rating label:hover {
+      transform: scale(1.35, 1.35);
+      color: orange; }
+      .rating label:hover ~ label {
+        color: orange; }
+
+header {
+  min-height: 70px;
+  background-color: #fff;
+  box-shadow: 0 6px 12px #0052E01A;
+  display: flex;
+  align-items: center;
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto; }
+  header .nav-top {
+    width: 100%; }
+    @media screen and (max-width: 767px) {
+      header .nav-top .navbar-brand {
+        width: 31px;
+        overflow: hidden; } }
+    header .nav-top .nav-item.active .nav-link {
+      color: #387DFF; }
+    header .nav-top .nav-item .nav-link {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      color: #7683A8;
+      white-space: nowrap; }
+
+.footer {
+  padding: 7.5%;
+  background-color: #6291F7;
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto; }
+  @media screen and (max-width: 767px) {
+    .footer {
+      padding: 15% 0; } }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  font-size: 14px;
+  line-height: 21px;
+  color: #333333;
+  font-weight: 400; }
+
+.section1 {
+  background-color: #7D74E9;
+  overflow: hidden;
+  position: relative; }
+  .section1::before {
+    content: url("../../img/Mask Group 1337.svg");
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .section1 .btn_oval {
+    min-width: 216px; }
+  .section1 .main-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF; }
+    .section1 .main-title b {
+      font-size: 56px;
+      line-height: 64px;
+      color: #FFFFFF;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 900; }
+  .section1 .img-area {
+    background: url("../../img/Group 14987.png") no-repeat;
+    width: 100%;
+    max-width: 512px;
+    height: 514px;
+    background-size: 100%; }
+  .section1 .marquee-style {
+    position: relative; }
+    .section1 .marquee-style::after {
+      content: url("../../img/Rectangle 13179.svg");
+      position: absolute;
+      top: 0;
+      right: 0; }
+    .section1 .marquee-style::before {
+      content: url("../../img/Rectangle 13178.svg");
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 11; }
+
+.section2 {
+  background: transparent linear-gradient(180deg, #F5FAFE 0%, #E5EDFF 100%) 0% 0% no-repeat padding-box; }
+  .section2 .info-text {
+    max-width: 711px;
+    width: 100%; }
+  .section2 .base-title {
+    font-size: 26px; }
+  .section2 .card {
+    box-shadow: 0 3px 6px #0047CE33;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s;
+    margin: 0 auto;
+    max-width: 21.5rem;
+    width: 100%; }
+    .section2 .card .base-title {
+      font: normal normal bold 16px/35px Montserrat;
+      white-space: nowrap;
+      zoom: 0.9; }
+    .section2 .card .abs {
+      position: absolute;
+      bottom: 20px;
+      left: 20px; }
+      .section2 .card .abs .text-white {
+        font-size: 18px; }
+      .section2 .card .abs span {
+        font: normal normal 700 14px/35px "Montserrat";
+        color: #FFFFFF;
+        text-shadow: 0 3px 6px #064AE541;
+        display: none;
+        transition: all 0.3s; }
+    .section2 .card:hover {
+      margin-top: -10px; }
+      .section2 .card:hover .abs span {
+        display: inline-block; }
+
+.section3 {
+  padding: 75px; }
+  .section3 .card .card-subtitle {
+    color: #766DE8;
+    font: normal normal 700 18px/46px Montserrat;
+    text-transform: uppercase; }
+  .section3 .card .border-purple {
+    border-left: 2px solid #766DE8; }
+  .section3 .card .border-yellow {
+    border-left: 2px solid #F7CF06; }
+  .section3 .card .color-yellow {
+    color: #F7CF06; }
+  .section3 .card .border-red {
+    border-left: 2px solid #F27B6A; }
+  .section3 .card .color-red {
+    color: #F27B6A; }
+  .section3 .abs {
+    position: absolute;
+    bottom: -10px;
+    text-align: center;
+    left: 0;
+    right: 0; }
+  .section3 .abs5 {
+    bottom: 5px; }
+  .section3 .abs-leftside {
+    position: absolute;
+    top: 50%;
+    left: 0; }
+  .section3 .abs-rightside {
+    position: absolute;
+    top: 45%;
+    right: -50px; }
+  .section3 .pulse-button {
+    animation: pulse 2s ease infinite; }
+@keyframes pulse {
+  0% {
+    transform: scale(1); }
+  50% {
+    transform: scale(0.8); }
+  100% {
+    transform: scale(1); } }
+.section4 {
+  padding-top: 45px;
+  padding-bottom: 60px;
+  background: transparent linear-gradient(180deg, #437BF9 0%, #5477F7 25%, #6172F1 75%, #726CEA 100%) 0% 0% no-repeat padding-box; }
+  .section4 .text-white {
+    font: normal normal bold 26px/36px Montserrat; }
+  .section4 .btn_oval {
+    min-width: 230px; }
+  .section4 .bg-pic {
+    position: relative; }
+    .section4 .bg-pic::before {
+      content: url("../../img/Mask Group 1357.png");
+      position: absolute;
+      top: -45px;
+      left: 0; }
+    .section4 .bg-pic::after {
+      content: url("../../img/Mask Group 1358.png");
+      position: absolute;
+      top: 0;
+      right: 0; }
+
+.section5 {
+  padding-top: 75px;
+  padding-bottom: 90px;
+  background-color: #F5FAFE;
+  position: relative; }
+  .section5 .card {
+    box-shadow: 0 3px 6px #0047CE33;
+    border-radius: 10px;
+    margin-bottom: 65px; }
+    .section5 .card .card-body {
+      padding: 45px 30px; }
+      .section5 .card .card-body .text-base {
+        font: normal normal 500 16px/22px Montserrat; }
+    .section5 .card .abs {
+      position: absolute;
+      top: -35px;
+      left: 30px; }
+  .section5 .bg-abs-right {
+    position: absolute;
+    width: 50px;
+    height: 520px;
+    bottom: -35px;
+    left: 150px;
+    transform: rotate(-40deg); }
+    .section5 .bg-abs-right::before {
+      content: url("../../img/atomic-energy.svg");
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(45deg); }
+    .section5 .bg-abs-right::after {
+      content: url("../../img/function.svg");
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: rotate(45deg); }
+  .section5 .bg-abs-left {
+    position: absolute;
+    width: 50px;
+    height: 540px;
+    bottom: 93px;
+    right: 145px;
+    transform: rotate(-30deg); }
+    .section5 .bg-abs-left::before {
+      content: url("../../img/venn-diagram.svg");
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(45deg); }
+    .section5 .bg-abs-left::after {
+      content: url("../../img/math.svg");
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      transform: rotate(45deg); }
+
+.section6 {
+  padding: 60px 0; }
+  .section6 .abs {
+    position: absolute;
+    top: 10px; }
+
+.section7 {
+  position: relative; }
+  .section7::before {
+    content: url("../../img/Mask Group 1278.svg");
+    position: absolute;
+    bottom: 90px;
+    left: 0; }
+  .section7::after {
+    content: url("../../img/Mask Group 1277.svg");
+    position: absolute;
+    top: 30px;
+    right: 0; }
+  .section7 .item .base-subtitle {
+    font: normal normal bold 16px/19px Montserrat; }
+  .section7 .owl-theme .owl-dots {
+    margin-top: 30px !important; }
+    .section7 .owl-theme .owl-dots .owl-dot span {
+      margin: 5px 0;
+      background: #387DFF;
+      opacity: 0.5; }
+    .section7 .owl-theme .owl-dots .owl-dot.active span {
+      opacity: 1; }
+
+.section8 {
+  background-color: #6291F7;
+  padding: 60px 0;
+  position: relative; }
+  .section8 .base-title {
+    line-height: 44px;
+    margin-bottom: 15px; }
+    .section8 .base-title + div {
+      font: normal normal 500 14px/24px Montserrat; }
+  .section8::before {
+    content: url("../../img/Mask Group 1269.svg");
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .section8::after {
+    content: url("../../img/Mask Group 1273.svg");
+    position: absolute;
+    top: 0;
+    right: 0; }
+
+.section9 {
+  position: relative;
+  padding: 60px 0 75px; }
+  .section9::before {
+    content: url("../../img/Mask Group 1361.svg");
+    position: absolute;
+    bottom: 117px;
+    left: 0; }
+  .section9::after {
+    content: url("../../img/Mask Group 1360.svg");
+    position: absolute;
+    top: 121px;
+    right: 0; }
+  .section9 .card {
+    box-shadow: 0 3px 6px #0047CE33;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto 60px;
+    max-width: 21.5rem;
+    width: 100%; }
+    .section9 .card::before {
+      content: url("../../img/Mask Group 1362.svg");
+      position: absolute;
+      bottom: 36px;
+      left: -85px; }
+    .section9 .card::after {
+      content: url("../../img/Mask Group 1363.svg");
+      position: absolute;
+      top: 36px;
+      right: -85px; }
+
+.btn-go-up {
+  scroll-behavior: smooth;
+  position: fixed;
+  bottom: 60px;
+  right: 60px;
+  z-index: 88; }
+  .btn-go-up a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 9px #387DFF40;
+    width: 72px;
+    height: 72px;
+    background-color: #fff;
+    border-radius: 100%;
+    overflow: hidden;
+    transition: all 0.3s; }
+
+@media screen and (min-width: 1200px) {
+  .main-content {
+    max-width: 1366px;
+    margin: 0 auto; }
+
+  .container-1100 {
+    max-width: 1100px; }
+
+  .container-1126 {
+    max-width: 1126px; }
+
+  .container-1109 {
+    max-width: 1109px; }
+
+  .container-1216 {
+    max-width: 1216px; } }
+@media screen and (max-width: 767px) {
+  .section1 {
+    padding-top: 30px; }
+    .section1 .btn_oval {
+      margin-bottom: 40px !important; }
+    .section1::before {
+      left: -140px;
+      transform: rotate(90deg);
+      zoom: 0.55;
+      top: -40px; }
+    .section1 .main-title {
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center; }
+      .section1 .main-title b {
+        font-size: 36px;
+        line-height: 42px; }
+    .section1 .img-area {
+      background-size: 100%;
+      height: 350px;
+      margin-top: 13px; }
+      .section1 .img-area img {
+        zoom: 0.7; }
+    .section1 > .row {
+      margin: 0 !important; }
+      .section1 > .row .col-md-7 {
+        padding: 0 !important; }
+
+  .line-purple {
+    width: 90px; }
+
+  .section2 .base-title {
+    font-size: 20px; }
+  .section2 .card .base-title {
+    font-size: 14px;
+    line-height: 31px;
+    zoom: 1; }
+
+  .base-title {
+    font: normal normal 700 24px/32px Montserrat; }
+
+  .section3 {
+    padding: 60px 0 75px; }
+    .section3 .card .card-subtitle {
+      font-size: 16px; }
+    .section3 .abs-rightside {
+      right: 0; }
+
+  .container {
+    padding-right: 20px;
+    padding-left: 20px; }
+
+  .section4 .bg-pic {
+    display: none; }
+  .section4 .fs-24 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: bold; }
+
+  .section5 {
+    padding-top: 45px;
+    padding-bottom: 60px; }
+    .section5 .bg-abs-left,
+    .section5 .bg-abs-right {
+      display: none; }
+    .section5 .card .card-body {
+      padding: 45px 20px 20px; }
+      .section5 .card .card-body .base-subtitle {
+        font: normal normal 600 16px/19px Montserrat; }
+      .section5 .card .card-body .text-base {
+        font: normal normal 500 14px/22px Montserrat; }
+
+  .section6 .abs {
+    zoom: 0.5; }
+    .section6 .abs + img {
+      zoom: 0.8; }
+
+  .section7::after, .section7::before {
+    display: none; }
+  .section7 .fs-18 {
+    font-size: 14px !important;
+    line-height: 22px !important; }
+
+  .section8 {
+    padding-top: 45px;
+    padding-bottom: 60px; }
+    .section8::after, .section8::before {
+      display: none; }
+    .section8 .base-title {
+      text-align: center;
+      font-size: 30px;
+      line-height: 40px; }
+      .section8 .base-title + div {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 45px; }
+
+  .section9 {
+    padding-top: 45px;
+    padding-bottom: 75px; }
+    .section9::after, .section9::before {
+      display: none; }
+    .section9 .card::after, .section9 .card::before {
+      display: none; }
+    .section9 .card .card-body {
+      padding: 20px 13px; } }
+
+/*# sourceMappingURL=main.css.map */
